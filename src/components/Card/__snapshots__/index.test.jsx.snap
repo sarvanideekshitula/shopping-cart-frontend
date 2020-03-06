@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the Genre container should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="test"
+  >
+    <div>
+      <img
+        alt="artist"
+        src="link"
+      />
+    </div>
+    <div>
+      <p>
+        name
+      </p>
+       
+      <p>
+        MRP:20
+      </p>
+    </div>
+    <div>
+      <button
+        type="button"
+      >
+        -
+      </button>
+      <p>
+        1
+      </p>
+      <button
+        disabled=""
+        type="button"
+      >
+        +
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
