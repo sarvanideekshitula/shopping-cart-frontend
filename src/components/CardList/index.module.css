@@ -1,0 +1,10 @@
+.CardList{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 24rem;
+    margin-right: 24rem;
+    margin-top: 4rem;
+    width: 50%;
+}
