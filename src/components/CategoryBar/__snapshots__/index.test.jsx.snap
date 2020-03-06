@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the Genre container should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="test"
+  >
+    <h3>
+      Filter Categories
+    </h3>
+    <ul>
+      <li>
+        <a
+          href="/products"
+        >
+          <button
+            type="button"
+          >
+            All
+          </button>
+        </a>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
