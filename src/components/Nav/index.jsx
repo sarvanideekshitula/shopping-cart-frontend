@@ -6,12 +6,14 @@ import * as styles from './index.module.css';
 
 
 const Nav = (props) => {
-  const { testId } = props;
+  const { testId, count } = props;
+  console.log('COUnt is ', count);
   return (
     <div className={styles.nav} data-testId={testId}>
       <div className={styles.cart}>
         <Link to="/cart">
           <FaShoppingCart />
+          <div className={styles.bubble}>{count}</div>
         </Link>
       </div>
     </div>

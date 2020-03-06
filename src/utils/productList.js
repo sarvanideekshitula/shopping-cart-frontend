@@ -18,8 +18,7 @@ const productList = async (category) => {
           if (productIndex > -1) products[productIndex].selectedQuantity = item.quantity;
         });
       }
-      console.log(products);
-      return products;
+      return { products, numberOfItems: cart.numberOfItems };
     }
     return [];
   } catch (err) {

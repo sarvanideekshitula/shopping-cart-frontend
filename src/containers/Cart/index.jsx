@@ -57,7 +57,7 @@ const Cart = (props) => {
 
   return (
     <div className={styles.Cart}>
-      <Nav />
+      <Nav count={cart.numberOfItems} />
       <h1>
         Your Shopping Cart (
         {cart.numberOfItems}

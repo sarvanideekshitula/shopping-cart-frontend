@@ -20,12 +20,12 @@ const ViewProducts = (props) => {
   if (fetchComplete && callComplete) {
     return (
       <div className={styles.ViewProducts} data-testId={testId}>
-        <Nav />
+        <Nav count={data.numberOfItems} />
         <CategoryBar
           categories={categories}
           buttonClick={(category) => { fetchProducts(category); }}
         />
-        <CardList products={data} />
+        <CardList products={data.products} />
       </div>
     );
   }
