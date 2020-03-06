@@ -1,0 +1,10 @@
+.nav{
+    box-shadow: 5px 10px 18px #888888;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cart{
+    padding-right: 2rem;
+    font-size: 3rem;
+}
